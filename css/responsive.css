@@ -1,0 +1,195 @@
+@media (max-width: 46.1875em) {
+    /* Thanh navbar */
+    #nav {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    #nav .nav-more {
+        width: 40px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #111B47;
+        color: #fff;
+    }
+    #nav .nav-left {
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #nav .nav-left-item {
+        display: none;
+        width: 140px !important;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #111B47;
+        text-align: left;
+        border: 1px solid #cccccc;
+    }
+    #nav .nav-center {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav .nav-right .buy-btn {
+        width: 90px;
+    }
+    
+    /* Page 1-5 */
+    #page-1 {
+        position: relative;
+        min-height: calc(1110px/2);
+    }
+    #page-1 .content {
+        width: 100%;
+        top: 120px;
+        left: 16px;
+    }
+    .content .content-title {
+        font-size: 24px !important;
+        line-height: 34px;
+        text-shadow: 1px 1px #ccc !important;
+    }
+    .content .content-body {
+        width: 97%;
+        font-size: 14px !important;
+        line-height: 24px;
+        text-shadow: 0.5px 0.5px #ccc !important;
+    }
+    .background-1 {
+        height: calc(1113px/2.2);
+        width: calc(1023px/2.2);
+        background-size: cover !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        opacity: 0.3;
+    }
+    .content .purchase-btn,
+    .content .more-btn {
+        min-width: 150px;
+        margin-right: 20px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #page-2 {
+        height: calc(742px/1.7);
+    }
+    #page-2 .content {
+        width: 100%;
+        left: 16px;
+        top: 20px;
+    }
+    #page-2 .content-box {
+        position: absolute;
+        top: 400px;
+    }
+    #page-2 .content-item {
+        text-align: center !important;
+        width: 180px;
+        padding-right: 20px;
+    }
+    .background-2 {
+        height: 90%;
+        width: 100%;
+    
+        background-size: cover;
+    
+        position: absolute;
+        top: 20px;
+        left: 0px;
+    }
+    #page-3 {
+        margin-top: 200px;
+        height: calc(742px/1.7);
+    }
+    #page-3 .content {
+        width: 50%;
+        left: 16px;
+        top: 50px;
+    }
+    .background-3 {
+        height: 100%;
+        width: 100%;
+    
+        background-size: cover;
+    
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        opacity: 0.3;
+    }
+    #page-4 {
+        margin-top: 20px;
+        height: calc(742px/1.7);
+    }
+    #page-4 .content {
+        width: 35%;
+        left: 220px;
+        top: 50px;
+        text-align: center;
+    }
+    .background-4 {
+        height: 100%;
+        width: 100%;
+    
+        background-size: cover;
+    
+        position: absolute;
+        top: 55px;
+        left: -150px;
+    }
+    #page-5 {
+        margin-top: 60px;
+        height: calc(742px/1.7);
+    }
+    #page-5 .content {
+        width: 60%;
+        left: 16px;
+        top: 50px;
+    }
+    .background-5 {
+        height: 100%;
+        width: 100%;
+    
+        background-size: cover;
+    
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        opacity: 0.3;
+    }
+    /* Page 6 */
+    #page-6 .content {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    /* Footer */
+    #footer {
+        padding: 0 16px;
+    }
+    #footer .brand {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 120px;
+    }
+    #footer .brand-right {
+        display: none;
+    }
+    #footer .icon {
+        padding-left: 10px;
+    }
+}
